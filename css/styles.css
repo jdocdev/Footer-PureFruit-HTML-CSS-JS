@@ -1,0 +1,58 @@
+:root {
+    --black:#000000;
+    --white:#ffffff;
+    --dark-purple:#3c122c;
+    --medium-purple:#762ba3;
+    --light-purple:#ae40f0;
+    --yellow:#ffc800;
+    --pink:#fc5185;
+    --light-pink:#ffeffe;
+    --green:#00b090;
+    --background-gray:#eee;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,input {
+    font-family: 'Nunito', sans-serif;
+    background-color: var(--background-gray);
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1440px;
+    padding: 0 20px;
+}
+
+.button {
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    font-weight: 700;    
+    cursor: pointer;
+}
+
+.button-primary {
+    color: var(--dark-purple);
+    background-color: var(--yellow);
+}
+
+.button-primary:hover {
+    background-color: var(--pink);
+    transition: background-color 0.3s;
+}
+
+.input {
+    border: none;
+    font-size: 1.1rem;
+    background-color: var(--white);
+    padding: 10px;
+    outline: none;
+    color: var(--dark-purple);
+}
