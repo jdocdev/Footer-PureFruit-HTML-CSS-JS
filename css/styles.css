@@ -36,6 +36,7 @@ a {
     padding: 10px 20px;
     font-weight: 700;    
     cursor: pointer;
+    border-radius: 5px;
 }
 
 .button-primary {
@@ -55,4 +56,5 @@ a {
     padding: 10px;
     outline: none;
     color: var(--dark-purple);
+    border-radius: 5px;
 }
