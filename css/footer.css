@@ -4,6 +4,12 @@
     background-color: var(--pink);
     display: flex;
     flex-direction: column;
+
+    /* Solo para ponerlo en la posición inferior de la pantalla */
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    /* Quitarlo al momento de implementar el footer */
 }
 
 .footer__sections {
