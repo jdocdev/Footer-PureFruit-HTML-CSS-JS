@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // Actualiza el año actual
-  document.getElementById("current-year").textContent = getCurrentYear();
+  document.querySelector("#current-year").textContent = getCurrentYear();
 
 
 });
